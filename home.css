@@ -93,7 +93,7 @@ input:nth-of-type(5){
 
 .botCont{
     text-align: center;
-    padding-top: 150px;
+    padding: 150px 0px;
 }
 
 .staffSec{
