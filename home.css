@@ -91,13 +91,45 @@ input:nth-of-type(5){
     width: 100%;
 }
 
-@media only screen and (min-width: 1440px){
+.staffImg{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+/*Extra small
+<576px  Small
+≥576px  Medium
+≥768px  Large
+≥992px  Extra large
+≥1200px
+*/
+
+@media screen and (min-width: 1440px){
     #banner{
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 800px){
+@media screen and (min-width: 1300px){
+    .testCont{
+        max-width: 1170px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .testCont{
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .testCont{
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 800px){
     #banner{
         width: auto;
         left: 50%;
