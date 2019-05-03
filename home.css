@@ -3,7 +3,14 @@ html{
 }
 
 body{
-    margin: 0; 
+    margin: 0;
+    color: #595959; 
+}
+
+input[type = text]{
+    display: block;
+    margin: 25px 0px;
+    width: 100%;
 }
 
 #header{
@@ -11,9 +18,11 @@ body{
     top: 0;
     left: 0;
     overflow-x: hidden;
+    height: 100%;
 }
 
 #banner{
+    display: block;
     position: relative;
     left: 50%;
     transform: translateX(-50%); 
@@ -24,6 +33,21 @@ body{
     left: 50%;
     top: 50%;
     transform:translate(-50%,-50%);
+}
+
+.infoSec{
+    background:  #efefff;
+    padding: 70px 110px;
+
+}
+
+.infoSec .textSec{
+    padding: 25px;
+}
+
+.formSec{
+    display: block;
+    text-align: center;
 }
 
 @media only screen and (min-width: 1440px){
