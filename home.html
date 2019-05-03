@@ -3,7 +3,7 @@
     <head>
         <title>MC2 Dev Test</title>
         <link rel="stylesheet" type="text/css" href="home.css">
-        <link rel="stylesheet" type="text/css" href="libraries/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="libraries/bootstrap.min.css">
     </head>
     <body>
         <div id="header">
@@ -12,19 +12,21 @@
         </div>
         <div class="container-fluid">
             <div class="row infoSec">
-                <div class="col-xl textSec">
+                <div class="col-xl infoText infoCol">
                     <h1>HEADING</h1>
-                    <p>Lorem ipsum lacinia dolor malesuada vulputate rhoncus phasellus blandit scelerisque, vel aliquam potenti porta quisque habitant ac nostra auctor, egestas semper aenean consequat fermentum taciti quisque integer.</p>
+                    <p>Lorem ipsum lacinia dolor malesuada vulputate rhoncus phasellus blandit scelerisque, vel aliquam potenti porta quisque habitant ac nostra auctor, egestas semper aenean consequat fermentum taciti quisque integer.Lorem ipsum lacinia dolor malesuada vulputate rhoncus phasellus blandit scelerisque, vel aliquam potenti porta quisque habitant ac nostra auctor, egestas semper aenean consequat fermentum taciti quisque integer.</p>
                     <h1>Call us today at (530)555-5555.</h1>
                 </div>
                 <div class="col-xl">
-                    <form class="formSec">
-                        <h2>CALL TO ACTION</h2>
-                        <input type="text" name="Name" placeholder="Name">
-                        <input type="text" name="Email" placeholder="Email">
-                        <input type="text" name="Phone Number" placeholder="Phone Number">
-                        <input type="text" name="Message" placeholder="Message">
-                        <input type="submit" name="">
+                    <form class="infoForm infoCol">
+                        <div class="form-group">
+                            <h2>CALL TO ACTION</h2>
+                            <input type="text" class="formPart form-control" name="Name" placeholder="Name">
+                            <input type="text" class="formPart form-control" name="Email" placeholder="Email">
+                            <input type="text" class="formPart form-control" name="Phone Number" placeholder="Phone Number">
+                            <input type="text" class="formPart form-control" name="Message" placeholder="Message">
+                            <input type="submit" class="formPart btn btn-primary" name="">
+                        </div>
                     </form>
                 </div>
             </div>
