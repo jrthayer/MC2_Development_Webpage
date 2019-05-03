@@ -114,6 +114,13 @@ input:nth-of-type(5){
     font-size: 30px;
 }
 
+.footer{
+    background: #303030;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
 @media screen and (min-width: 1440px){
     #banner{
         width: 100%;
